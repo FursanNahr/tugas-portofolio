@@ -1,14 +1,9 @@
-
 #root {
   width: 100%;
-  max-width: 1150px;
+  /* max-width: 1150px; */
   height: 100%;
   color: white;
   margin: 0 auto;
-}
-
-nav {
-  max-width: 1150px;
 }
 
 /* .logo {
