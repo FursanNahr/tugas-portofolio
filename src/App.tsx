@@ -4,8 +4,6 @@ import Navbar from './components/Navbar';
 import Main from './pages/index.tsx';
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
       <Navbar />
