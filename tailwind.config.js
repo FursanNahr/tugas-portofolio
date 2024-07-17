@@ -30,10 +30,16 @@ export default {
       },
       animation: {
         'scroll-down': 'scroll-down 3s infinite',
-      }
+      },
+      screens: {
+        'sm-desktop': { 'max': '1150px' },
+        'md': { 'max': '768px' },
+        '2sm': { 'max': '538px' },
+        'sm': { 'max': '390px' },
+      },
     },
   },
   plugins: [
-require('daisyui'),
-],
+    require('daisyui'),
+  ],
 }
